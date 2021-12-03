@@ -1,0 +1,70 @@
+.timeline {
+  padding: 0 !important;
+}
+.timeline .timeline_firstItem {
+  min-height: 80px !important;
+}
+
+/* Header */
+
+.timeline .timeline_header {
+  padding-top: 14px;
+}
+
+.timeline .MuiTimelineItem-root {
+  min-height: 0;
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+
+.timeline .timeline_header_dot {
+  color: black !important;
+  background-color: var(--theme-color) !important;
+  font-size: small !important;
+  padding: 10px !important;
+}
+
+/* Other item */
+
+.timeline .seperator_padding {
+  padding-left: 22px !important;
+  min-height: 20px !important;
+}
+
+.timeline .timeline_dot {
+  color: black !important;
+  border-color: var(--theme-color) !important;
+  background-color: white !important;
+  /* font-size: small !important; */
+  padding: 2px !important;
+}
+
+.timeline .timeline_content {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.timeline .MuiTimelineConnector-root {
+  min-height: 10px !important;
+  background-color: linen;
+}
+
+/* Information */
+
+.timeline .timelineItem_text {
+  font-size: 16px;
+  color: #787878;
+  font-weight: 400;
+}
+
+.timeline .timelineItem_text > a {
+  color: #787878;
+  text-decoration: none;
+}
+
+.timeline .timelineItem_text > span {
+  color: black;
+  /* font-weight: bold; */
+}
