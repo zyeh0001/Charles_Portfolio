@@ -1,0 +1,33 @@
+/* about me section */
+.aboutme_text {
+  color: darkslategray;
+  font-size: x-small !important;
+  line-height: 22px !important;
+  white-space: pre-line !important;
+}
+
+/* end of about me */
+/* timeline section */
+
+.resumeTimeline .timeline_title {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.resumeTimeline .timeline_date {
+  color: darkslategray;
+}
+.resumeTimeline .timeline_description {
+  color: gray;
+  font-size: x-small !important;
+  margin-top: 6px;
+  line-height: 22px !important;
+  white-space: pre-line !important;
+}
+
+.school_major {
+  /* color: darkslategray; */
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  white-space: pre-line !important;
+}

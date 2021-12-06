@@ -51,6 +51,10 @@
   background-color: linen;
 }
 
+.timeline .MuiSvgIcon-root {
+  font-size: small !important;
+}
+
 /* Information */
 
 .timeline .timelineItem_text {

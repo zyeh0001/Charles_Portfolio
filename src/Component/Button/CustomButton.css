@@ -23,8 +23,9 @@
   justify-content: center !important;
 }
 
-.custom_btn .btn_icon_container > MuiSvgIcon-root {
-  font-size: 10px !important;
+.custom_btn .btn_icon_container > .MuiSvgIcon-root {
+  font-size: 18px !important;
+  justify-content: center !important;
 }
 
 .custom_btn .btn_text {

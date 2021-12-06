@@ -22,17 +22,19 @@ function App() {
         >
           <Profile />
         </Grid>
-        <Grid item xs style={{ backgroundColor: 'red' }}>
-          <Header />
+        <Grid item xs>
           <Router>
-            <Switch>
-              <Route exact path='/'>
-                <Resume />
-              </Route>
-              <Route path='/portfolio'>
-                <Portfolio />
-              </Route>
-            </Switch>
+            <Header />
+            <div className='main_content container_shadow'>
+              <Switch>
+                <Route exact path='/'>
+                  <Resume />
+                </Route>
+                <Route path='/portfolio'>
+                  <Portfolio />
+                </Route>
+              </Switch>
+            </div>
           </Router>
 
           <Footer />
