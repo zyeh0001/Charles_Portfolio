@@ -10,6 +10,7 @@ const resumeData = {
   phone: '(61)423-105-719',
   email: 'charlesyehtw@gmail.com',
   location: 'Melbourne',
+  address: '23 Longbourne Ave, Notting Hill',
 
   socials: {
     Facebook: {
@@ -72,6 +73,51 @@ const resumeData = {
       major: 'ExchangeStudent',
       award:
         'Ø Awarded International exchange scholarship from Ministry of Education, Taiwan',
+    },
+  ],
+  services: [
+    {
+      title: 'Web Dev',
+      description:
+        'I have over six years of experience in operations, web development, project management, data analysis skills.',
+      icon: '',
+    },
+    {
+      title: 'Cloud Computing',
+      description:
+        'I have over six years of experience in operations, web development, project management, data analysis skills.',
+      icon: '',
+    },
+    {
+      title: 'Software development',
+      description:
+        'I have over six years of experience in operations, web development, project management, data analysis skills.',
+      icon: '',
+    },
+  ],
+
+  skills: [
+    {
+      title: 'Web-Dev',
+      description: [
+        'ReactJS',
+        'JavaScript',
+        'Bootstrap',
+        'Material UI',
+        'AWS services',
+      ],
+    },
+    {
+      title: 'Database',
+      description: ['SQL', 'MongoDB', 'Cassandra', 'Firebase'],
+    },
+    {
+      title: 'Sourse Control',
+      description: ['GIT', 'Agile/Scrum'],
+    },
+    {
+      title: 'Visual',
+      description: ['Tableau', 'R', 'D3.js'],
     },
   ],
 };

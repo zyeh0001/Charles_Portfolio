@@ -22,11 +22,13 @@
 }
 
 .header .header_link_active {
+  font-size: 16px;
   font-weight: 500;
   color: var(--theme-color) !important;
 }
 
 .header .header_link {
+  font-size: 16px;
   font-weight: 500;
   color: darkslategray !important;
 }

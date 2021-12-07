@@ -1,7 +1,7 @@
 /* about me section */
 .aboutme_text {
-  color: darkslategray;
-  font-size: x-small !important;
+  color: gray;
+  font-size: 15px !important;
   line-height: 22px !important;
   white-space: pre-line !important;
 }
@@ -19,7 +19,7 @@
 }
 .resumeTimeline .timeline_description {
   color: gray;
-  font-size: x-small !important;
+  font-size: 15px !important;
   margin-top: 6px;
   line-height: 22px !important;
   white-space: pre-line !important;
@@ -30,4 +30,31 @@
   font-size: 15px !important;
   font-weight: 500 !important;
   white-space: pre-line !important;
+}
+
+/* skills */
+.skill {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 48px 0 rgba(4, 6, 4, 0.08) !important;
+  min-width: 186px;
+  height: 100%;
+}
+.skill .skill_title {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  line-height: 35px !important;
+}
+.skill .skill_description {
+  font-size: 14px !important;
+  display: flex;
+  align-items: center;
+  color: #989898 !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+}
+.skill .skill_description .timeline_dot {
+  border-color: var(--theme-color);
+  padding: 2px !important;
+  margin-right: 5px !important;
 }

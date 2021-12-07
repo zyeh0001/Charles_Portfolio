@@ -1,9 +1,11 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
 import './CustomButton.css';
-function CustomButton({ text, icon }) {
+
+function CustomButton({ text, icon, file }) {
   return (
     <Button
+      onClick={file}
       className='custom_btn'
       endIcon={icon ? <div className='btn_icon_container'>{icon}</div> : null}
     >

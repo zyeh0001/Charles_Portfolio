@@ -37,6 +37,15 @@ const Header = withRouter((props) => {
           >
             Portfolio
           </Nav.Link>
+          <Nav.Link
+            as={NavLink}
+            to='/contact'
+            className={
+              pathName === '/contact' ? 'header_link_active' : 'header_link'
+            }
+          >
+            Contact
+          </Nav.Link>
         </Nav>
         <div className='header_right'>
           {Object.keys(resumeData.socials).map((social) => {

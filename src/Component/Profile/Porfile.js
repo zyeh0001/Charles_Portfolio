@@ -9,6 +9,14 @@ import resumeData from '../../utils/resumeData';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import CustomButton from '../Button/CustomButton';
 import DownloadIcon from '@mui/icons-material/Download';
+import { saveAs } from 'file-saver';
+
+const saveFile = () => {
+  saveAs(
+    'https://drive.google.com/file/d/1iFqD1aGyiUnrjaXfn5mprO0e74gQw94f/view?usp=sharing',
+    'CharlesCv'
+  );
+};
 
 const CustomTimelineItem = ({ title, text, link }) => {
   return (
@@ -17,14 +25,13 @@ const CustomTimelineItem = ({ title, text, link }) => {
       <TimelineContent className='timeline_content'>
         {link ? (
           <Typography className='timelineItem_text'>
-            <span>{title}: </span>{' '}
+            <span>{title}: </span>
             <a href={link} target='_blank' rel='noreferrer'>
               {text}
             </a>
           </Typography>
         ) : (
           <Typography className='timelineItem_text'>
-            {' '}
             <span>{title}: </span>
             {text}
           </Typography>
@@ -64,6 +71,7 @@ const Porfile = () => {
 
         <div className='button_container'>
           <CustomButton
+            file={saveFile}
             text='Download Cv'
             icon={<DownloadIcon />}
           ></CustomButton>
