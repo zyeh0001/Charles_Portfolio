@@ -91,7 +91,6 @@ function Contact() {
               return (
                 <Grid item className='contact_info_social_icon'>
                   <a
-                    key={social}
                     href={resumeData.socials[social].link}
                     target='_blank'
                     rel='noreferrer'
